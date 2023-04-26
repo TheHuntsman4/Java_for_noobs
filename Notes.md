@@ -69,7 +69,7 @@ dollar may be used
 basic unit of storage in ajava porgram
 a variable is a container that holds data
 they must be named
-### primutve datatypes
+### primitive datatypes
 
 integer
 byte
@@ -79,8 +79,13 @@ flaot
 boolean  : True or false
 char
 
-implicit and explicit conversion difference coersion what?
+## Type Casting
+
+Implicit Type Conversion: This occurs when the data type of a variable is automatically converted to another data type without the programmer's intervention. For example, if we try to assign an integer value to a double variable, the integer value is automatically converted to a double. This type of conversion is also known as widening or promotion.
+
+Explicit Type Conversion: This occurs when the programmer manually converts the data type of a variable to another data type using type casting. Type casting involves specifying the desired data type in parentheses before the variable. For example, if we want to convert a double value to an integer, we would use the following code:
                       
+Coercion is a term which is used to specify cases when the languafe automaticaly typecasts a variable to a type which maybe problematic. 
 
 
 
