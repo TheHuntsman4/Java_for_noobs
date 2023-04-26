@@ -1,4 +1,4 @@
-# Homework
+# Keywords
 
 | Keyword | Description |
 | --- | ----------- |
@@ -20,75 +20,36 @@
 |extends|used to say that a class is derived from another class|
 |final|indicated that a variable holds a constant value or that a method will not be overridden|
 |finally|the a part of the try-catch system , it is a block whihc is always executed|
-|||
-|||
-|||
-|||
-|||
-|||
-|||
-|||
-|||
-|||
-|||
-|||
-|||
-|||
-|||
-|||
-|||
-|||
-
-
-abstract
-assert 
-boolean
-break 
-byte
-case
-catch
-char
-class
-const 
-continue
-default
-do
-double
-else
-enum
-extends
-final
-finally
-float
-for
-goto
-if
-implements
-import
-instncaof
-int 
-interface
-long
-native
-new
-package
-private
-protected
-retune 
-short
-static 
-strictfp
-super
-switch
-synchronized
-this
-throw
-throws
-transient
-try
-void
-volatile
-while
+|float|float datatype|
+|for|for loop|
+|if|if conditional|
+|implements|specifies that a class implements an interface|
+|import|used to import modules|
+|instanceof|indicates whether an object is an instance of a specific class or implements an interface|
+|int|datatype|
+|interface|indicates whether an object is an instance if  specific class or implements an interface|
+|long|datatype|
+|native|specifies that a method si implemented with nativ code|
+|new|creates a new object|
+|null|reference doesnot refer to anything|
+|package|used to declare a new java package|
+|private|access specifier only the same class|
+|public|access specifier throughut the application|
+|protected|same as private but cannot be edited |
+|return| returns some value|
+|short|datatype|
+|static|indicates that a variable or methid is a class method|
+|strictfp|used to restrict the rounding of floatinf point values|
+|super|class's parent class|
+|switch|switch case|
+|synchronized|specifies critical sections or methods in mutlithreaded code|
+|this|refers to currenct class or constructor|
+|throw|create an exception|
+|transient|specifies that a avariable is not a part of an objects persistent state|
+|try|starts a block of code that will be tested for exceptions|
+|void|return type|
+|volatile|variable may change asychrobously|
+|while|while loop|
 
 
 ## statments
