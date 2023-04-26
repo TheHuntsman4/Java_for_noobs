@@ -1,0 +1,6 @@
+public class _9{
+public static void main(String[] args)cj c1="@";
+int  unicode=Character.getNumericValue(c1);   
+System.out.println(unicode);
+System.out.println(c1);
+}}
