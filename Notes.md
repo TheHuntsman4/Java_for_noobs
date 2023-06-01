@@ -136,6 +136,14 @@ Answer: You can convert a Java string to a different data type using methods pro
 10. What are some best practices for working with Java strings, such as avoiding string concatenation in loops or using StringBuilder for large strings?
 Answer: Some best practices for working with Java strings include using StringBuilder for large string concatenation operations, avoiding string concatenation in loops, and using the intern() method to add string literals to the String Pool when needed.
 
+## Properties of abstract class
 
+A class which contains the abstrat keyword in its declaration is known as a abstract class.
+
+ Abstract classes can have abstract and non-abstract methods.
+ 
+ Abstract classes may or may not contain abstract methods, but if a class has atleast one abstract method, then the class must mbe declared as abstract.
+ 
+ When a class is declared as abstract it cannot be instatiated, to use an abstract class one must inherit from another class and provide implementation to the abstract methods in it. 
 
 
