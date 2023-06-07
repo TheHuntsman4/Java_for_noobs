@@ -25,7 +25,6 @@ public class _9 {
                 num = num + 1;
             }
         }
-        System.out.println("\n Ignore the zero! \n");
         return 0;
     }
 }
