@@ -36,6 +36,8 @@ class Student {
 
 public class _2 {
     public static void main(String[] args) {
+
+        int op;
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Enter the number of students: ");
@@ -71,5 +73,10 @@ public class _2 {
             System.out.println("Batch: " + students[i].getBatch());
             System.out.println();
         }
+
+
+        System.out.println("WHICH OPERATION WOULD YOU LIKE TO PERFORM?");
+        System.out.println("1.Change name");
+        System.out.println("2.Change CGPA");
     }
 }
