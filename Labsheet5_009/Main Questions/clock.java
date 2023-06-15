@@ -137,7 +137,7 @@ class Clock {
     }
 }
 
-public class TestClock {
+public class clock {
     public static void main(String[] args) {
         // Create a default Clock object
         Clock clock1 = new Clock();
@@ -159,7 +159,7 @@ public class TestClock {
         clock2.setClock(73245);
         System.out.println("Updated Clock 2: " + clock2.getStringFormat());
 
-        // Get the hours, minutes, and seconds
+        // Get the hours, minutes, and seconds  
         System.out.println("Hours: " + clock3.getHours());
         System.out.println("Minutes: " + clock3.getMinutes());
         System.out.println("Seconds: " + clock3.getSeconds());
@@ -185,3 +185,4 @@ public class TestClock {
 }
 
 
+    
