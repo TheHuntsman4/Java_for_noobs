@@ -60,7 +60,7 @@ class CountedProduct extends PurchaseProduct {
     }
 }
 
-public class _2{
+public class _3{
     public static void main(String[] args) {
         PurchaseProduct product1 = new WeighedProduct("Apples", 1.5, 2.5);
         PurchaseProduct product2 = new CountedProduct("Pens", 0.8, 5);
