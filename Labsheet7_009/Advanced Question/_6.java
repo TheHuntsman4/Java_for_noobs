@@ -10,11 +10,25 @@ class Employee {
     }
 
     // Getters and setters
-    // ...
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
 }
 
 // Subclass
- class Manager extends Employee {
+class Manager extends Employee {
     private String department;
 
     // Constructor
@@ -24,7 +38,13 @@ class Employee {
     }
 
     // Additional methods
-    // ...
+    public String getDepartment() {
+        return department;
+    }
+
+    public void setDepartment(String department) {
+        this.department = department;
+    }
 }
 
 // Superclass
@@ -39,11 +59,25 @@ class Person {
     }
 
     // Getters and setters
-    // ...
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
 }
 
 // Subclass
- class Student extends Person {
+class Student extends Person {
     private String studentId;
 
     // Constructor
@@ -53,36 +87,13 @@ class Person {
     }
 
     // Additional methods
-    // ...
-}
-
-// Superclass
- class Employee {
-    private String name;
-    private int age;
-
-    // Constructor
-    public Employee(String name, int age) {
-        this.name = name;
-        this.age = age;
+    public String getStudentId() {
+        return studentId;
     }
 
-    // Getters and setters
-    // ...
-}
-
-// Subclass
- class Professor extends Employee {
-    private String department;
-
-    // Constructor
-    public Professor(String name, int age, String department) {
-        super(name, age);
-        this.department = department;
+    public void setStudentId(String studentId) {
+        this.studentId = studentId;
     }
-
-    // Additional methods
-    // ...
 }
 
 // Superclass
@@ -97,11 +108,25 @@ class Vehicle {
     }
 
     // Getters and setters
-    // ...
+    public String getBrand() {
+        return brand;
+    }
+
+    public void setBrand(String brand) {
+        this.brand = brand;
+    }
+
+    public String getModel() {
+        return model;
+    }
+
+    public void setModel(String model) {
+        this.model = model;
+    }
 }
 
 // Subclass
- class Car extends Vehicle {
+class Car extends Vehicle {
     private int numberOfDoors;
 
     // Constructor
@@ -111,6 +136,31 @@ class Vehicle {
     }
 
     // Additional methods
-    // ...
+    public int getNumberOfDoors() {
+        return numberOfDoors;
+    }
+
+    public void setNumberOfDoors(int numberOfDoors) {
+        this.numberOfDoors = numberOfDoors;
+    }
 }
 
+// Subclass
+class Professor extends Employee {
+    private String department;
+
+    // Constructor
+    public Professor(String name, int age, String department) {
+        super(name, age);
+        this.department = department;
+    }
+
+    // Additional methods
+    public String getDepartment() {
+        return department;
+    }
+
+    public void setDepartment(String department) {
+        this.department = department;
+    }
+}
