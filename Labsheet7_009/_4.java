@@ -10,6 +10,10 @@ abstract class Shape{
 
 class Circle extends Shape{
     double radius;
+    Circle(String color, double radius){
+        this.radius=radius;
+        this.color = color;
+    }
     public double area(){
         return (22/7*radius*radius);
     }
@@ -37,5 +41,14 @@ class Rectagle extends Shape{
 
         public double permiter(){
         return (2*(length+width));
+    }
+}
+
+public class _4{
+    public static void main(String[] args){
+
+        Circle c1 = new Circle("chomala",24.0);
+        System.out.println(c1.toString());
+
     }
 }
