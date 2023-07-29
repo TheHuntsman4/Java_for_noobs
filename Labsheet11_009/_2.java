@@ -13,7 +13,7 @@ public class _2{
         JButton b5 = new JButton("Button5");
         JButton b6 = new JButton("Button6");
         JButton b7 = new JButton("Button7");
-        JLabel label = new JLabel("Type Stuff here:");
+        JLabel label = new JLabel("Input Data Here:");
         JTextField textField = new JTextField();
         textField.setSize(200, 100);
         
